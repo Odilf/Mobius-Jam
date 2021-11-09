@@ -7,18 +7,11 @@
 
 	const default_tracks: InstrumentName[] = [
 		'acoustic_grand_piano',
-		'acoustic_bass'
+		'acoustic_bass',
+		'cello'
 	]
 
 	let session = new Session('caca', 120, default_tracks)
-
-	session.tracks[1].notes = [
-		new Note('C2', 0),
-		new Note('Eb2', 0.25),
-		new Note('F2', 0.5),
-		new Note('Bb1', 0.75),
-	]
-
 </script>
 
 <Metronome/>
