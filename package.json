@@ -1,0 +1,26 @@
+{
+  "name": "mobius-jam",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "svelte": "^3.42.6",
+    "svelte-check": "^2.2.6",
+    "svelte-preprocess": "^4.9.4",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource/roboto": "^4.5.1",
+    "@fontsource/roboto-mono": "^4.5.0",
+    "soundfont-player": "^0.12.0",
+    "webmidi": "^2.5.3"
+  }
+}

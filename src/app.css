@@ -1,0 +1,33 @@
+@import "@fontsource/roboto-mono";
+@import "@fontsource/roboto-mono/variable.css";
+@import "@fontsource/roboto";
+
+:root {
+	--primary-hsl: 205, 51%, 32%;
+	--secondary-hsl: 244, 24%, 59%;
+	--tertiary-hsl: 208, 26%, 70%;
+
+	--accent-hsl: 106, 18%, 66%;
+	--text-hsl: 240, 100%, 97%;
+
+	--primary: hsl(var(--primary-hsl));
+	--secondary: hsl(var(--secondary-hsl));
+	--tertiary: hsl(var(--tertiary-hsl));
+	--accent: hsl(var(--accent-hsl));
+	--text: hsl(var(--text-hsl));
+
+	font-family: 'Roboto';
+
+	color: var(--text);
+	background-color: var(--primary);
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+	display: flex;
+}
